@@ -50,9 +50,9 @@ mitm -s mitm.py
 
 * On each phone:
 
-- Configure the above instance as a proxy for your WiFi connection
+  - Configure the above instance as a proxy for your WiFi connection
 
-- Visit http://mitm.it to install the mitmproxy's certificate
+  - Visit http://mitm.it to install the mitmproxy's certificate
 
 ## How Bluezone servers send commands to client devices
 
