@@ -1,4 +1,4 @@
-# How Bluezone servers can silently collect contact history from any users
+# Demo: how Bluezone servers can silently collect contact history from any users
 
 Bluezone is a BLE-based contact tracing app sponsored by the Government of
 Vietnam and developed by a coalition of local tech companies and the Ministry of
