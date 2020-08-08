@@ -125,8 +125,12 @@ For each token copied above, run:
 ```
 
 In the mitmproxy console, you'll see two requests to
-`https://apibz.bkav.com/api/AppHistoryContact/ReportHistory_ConfirmDeclare`. The
-request body contains something like this
+`https://apibz.bkav.com/api/AppHistoryContact/ReportHistory_ConfirmDeclare`.
+
+[request_upload_history.txt](request_upload_history.txt) contains a request
+that I captured during my testing.
+
+The request body contains something like this
 
 ```
 InfoF:         {"base_id":"66B07D33DA4E16A359B590EDA1E8DC90892D341C86A6491376041FE44505FFB5","time":1596844800,"daily_key":"66B07D33DA4E1
@@ -151,6 +155,7 @@ Bluezone servers can figure out the user's phone number, if they entered it duri
 registration.
 * history contains the contact history this client device has recorded.
 
+
 ## Trigger the `CHECK_CONTACT_F0` command
 
 Run:
@@ -161,6 +166,9 @@ Run:
 
 Where [token] belongs to one phone and [base-id] belongs to the other. In the
 mitmproxy console, you'd see another request to `https://apibz.bkav.com/api/AppHistoryContact/ReportHistory_ConfirmContact`.
+
+[request_check_contact_f0.txt](request_check_contact_f0.txt) contains a request
+that I captured during my testing.
 
 This concludes the demo.
 
