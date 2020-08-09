@@ -14,9 +14,9 @@ reproducible evidences showing that Bluezone centralized servers have the
 capabilities to silently grab all contact history from any users, including
 those who have not in contact with any F0, F1, or F2. Because there's no user
 confirmation, nobody would be able to tell when or why their data is uploaded
-to Bluezone servers (which are currently hosted at `https://apiz.bkav.com`).
+to Bluezone servers (which are currently hosted at `https://apibz.bkav.com`).
 
-## Require tools
+## Required tools
 
 * Two Android phones. One is okay if you only want to trigger the `PUSH_HISTORY`
 command.
